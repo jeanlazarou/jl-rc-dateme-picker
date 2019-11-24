@@ -27,11 +27,16 @@ Besides npm package, UMD module is placed under `dist/` directory:
 
 See the [demo] page.
 
-
-[Moment.js]: http://momentjs.com/
+[moment.js]: http://momentjs.com/
 [demo]: https://allenwooooo.github.io/rc-datetime-picker/
 
 ## Props
+
+The components that displays the calendar use 3 panels to improve user selection experience:
+
+- the year panel to quickly select the year, related properties use the "year" value
+- the month panel to make navigation easier, related properties use the "month" value
+- the day panel to select the date, related properties use the "day" value
 
 ### DatetimePicker Props
 
@@ -128,6 +133,12 @@ See the [demo] page.
       <td>String</td>
       <td>'day'</td>
       <td>Min panel for select.</td>
+    </tr>
+    <tr>
+      <td>startPanel</td>
+      <td>String</td>
+      <td>'day'</td>
+      <td>Starting panel displayed by the component.</td>
     </tr>
   </tbody>
 </table>
@@ -239,6 +250,12 @@ See the [demo] page.
       <td>String</td>
       <td>'day'</td>
       <td>Min panel for select.</td>
+    </tr>
+    <tr>
+      <td>startPanel</td>
+      <td>String</td>
+      <td>'day'</td>
+      <td>Starting panel displayed by the component.</td>
     </tr>
   </tbody>
 </table>
@@ -380,6 +397,12 @@ See the [demo] page.
       <td>String</td>
       <td>'day'</td>
       <td>Min panel for select.</td>
+    </tr>
+    <tr>
+      <td>startPanel</td>
+      <td>String</td>
+      <td>'day'</td>
+      <td>Starting panel displayed by the component.</td>
     </tr>
   </tbody>
 </table>
@@ -533,6 +556,12 @@ See the [demo] page.
       <td>String</td>
       <td>'day'</td>
       <td>Min panel for select.</td>
+    </tr>
+    <tr>
+      <td>startPanel</td>
+      <td>String</td>
+      <td>'day'</td>
+      <td>Starting panel displayed by the component.</td>
     </tr>
   </tbody>
 </table>
