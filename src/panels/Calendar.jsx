@@ -11,7 +11,7 @@ class Calendar extends Component {
     super(props);
     this.state = {
       moment: this.getCurrentMoment(props),
-      panel: props.minPanel || 'day'
+      panel: this.props.startPanel || this.props.minPanel || "day"
     };
   }
 
